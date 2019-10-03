@@ -7,7 +7,7 @@
 * [Ajibade Abiodun](https://github.com/Tripple-A)
 
 ### Project Goal
-To achieve mobile responsiveness on [this youtube page](http://archive.fo/Bss88) using media queries and positioning via  grid and flexbox.
+To achieve mobile responsiveness on [this page](https://thenextweb.com/) using media queries and positioning via  grid and flexbox.
 
 ### Live Demo
 
