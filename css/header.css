@@ -9,10 +9,11 @@
   height: 0;
 }
 
-.yellow-nav{
-    width:100%;
-    background-color: yellow;
-    text-align:center
+.yellow-nav {
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+  position: relative;
 }
 
 .top-nav {
@@ -52,47 +53,45 @@
 @media (max-device-width: 480px) {
   .mobile-nav {
     visibility: visible;
-    /* padding: 1rem; */
     height: auto;
     position: fixed;
     background-color: #fff;
     width: 100%;
-    /* border-bottom: 1px solid gray; */
     display: flex;
-    margin-bottom: 40%
+    margin-bottom: 40%;
   }
 
-  .mobile-nav .mobile-image{
-      background-color: palevioletred;
-      color:white;
-      height:10vh;
-      width:18vh;
-      float:left;
-      font-size:20px;
-      font-family:cursive;
-      word-spacing: 0.3rem;
-      font-weight:600;
-      text-align: center;
-      padding: 10px
-      
-
+  .mobile-nav .mobile-image {
+    background-color: palevioletred;
+    color: white;
+    height: 10vh;
+    width: 18vh;
+    float: left;
+    font-size: 20px;
+    font-family: cursive;
+    word-spacing: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
   }
 
   .mobile-nav .nav-links {
-    padding-left:58%;
+    padding-left: 56%;
     padding-top: 1.2rem;
-    padding-bottom: 1rem
+    padding-bottom: 1rem;
   }
 
-  .mobile-nav .nav-links .nav-link{
-      padding-left:5px;
-      font-size:1.2rem
+  .mobile-nav .nav-links .nav-link {
+    padding-left: 5px;
+    font-size: 1.2rem;
   }
 
-  .yellow-nav{
-      margin-top:14%;
-      padding:0.6rem
+  .yellow-nav {
+    margin-top: 15%;
+    padding: 0.6rem;
   }
+
   .top-nav,
   .main-nav {
     display: none;
