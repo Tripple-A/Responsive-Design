@@ -26,6 +26,12 @@
   padding: 1rem;
 }
 
+.main-nav .nav-links .nav-link a {
+  font-family:
+    'Ropa Sans',
+    sans-serif;
+}
+
 .nav-links {
   float: left;
 }
