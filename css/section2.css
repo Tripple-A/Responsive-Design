@@ -44,6 +44,7 @@
 
 .sect-heading{
     position: absolute;
+    z-index: -10;
 }
 
 .right-links>ul{
