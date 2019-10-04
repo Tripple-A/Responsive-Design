@@ -172,11 +172,12 @@
 
 @media (max-device-width: 480px) {
   .top-section {
-    margin-top: 65px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 10px;
+    margin-bottom: 20px;
   }
 
   .top-section .main-article,
@@ -189,9 +190,9 @@
     color: #fff;
     font-weight: 600;
     font-size: 1rem;
-    padding: 1vh 1vw;
+    padding: 1vw;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-top: 130px;
+    margin-top: 100px;
   }
 
   .row-third {
