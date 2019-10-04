@@ -15,9 +15,159 @@
   height: 500px;
 }
 
+.top-section .main-article h1.article-heading {
+  color: #fff;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding: 2vh 2vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 310px;
+}
+
 .top-section .sub-article {
   grid-row-start: span 1;
   background-color: #b3b3b3;
+}
+
+.top-section .sub-article h1.article-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1vh 1vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 25%;
+}
+
+.funding-rounds {
+  padding-top: 2vh;
+  width: 100%;
+}
+
+.funding-rounds .company {
+  z-index: 1;
+  background-color: red;
+  padding: 1vh;
+  padding-left: 6vw;
+}
+
+.funding-rounds .company h5 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.funding-rounds .seed-fund {
+  z-index: 1;
+  background-color: #fcc;
+  padding: 1vh;
+  padding-left: 6vw;
+}
+
+.funding-rounds .offset-image {
+  width: 4vw;
+  position: absolute;
+  margin-top: -11vh;
+  margin-left: 1vw;
+}
+
+.funding-rounds .meta {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-bottom: 1px solid #fcc;
+  line-height: 2rem;
+}
+
+.funding-rounds .meta span {
+  margin-bottom: 2rem;
+}
+
+.funding-rounds p {
+  padding: 1vh 0 0 0;
+}
+
+.funding-rounds .meta-link {
+  font-size: 0.8rem;
+}
+
+.funding-rounds .meta-link .gray {
+  color: gray;
+}
+
+.row-third {
+  padding-top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3vh 2vw;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.third-heading {
+  color: red;
+  font-weight: 900;
+  font-size: 1.6rem;
+  margin-bottom: 2vh;
+  margin-top: 5vh;
+}
+
+.third-article-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 35vh;
+  background-color: gray;
+}
+
+.third-article-1 h3 {
+  padding: 0 1vh 1vh 2vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 22vh;
+}
+
+.third-article-1 h3 small {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.third-article-2 {
+  display: flex;
+  background-color: #ffe6e6;
+}
+
+.third-article-2 h3 {
+  color: red;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1.5vh;
+}
+
+.third-article-2 h3 .span {
+  text-transform: uppercase;
+}
+
+.third-article-2 img {
+  padding: 2px;
+}
+
+.list-items {
+  color: red;
+  list-style: outside;
+  padding-left: 1rem;
+}
+
+.list-items .list-item {
+  border-bottom: 0.3px solid gray;
+  padding: 2vh 0;
+}
+
+.list-items .list-item a {
+  color: gray;
+}
+
+.list-items .list-item a:hover {
+  color: #010101;
 }
 
 @media (max-device-width: 480px) {
@@ -32,5 +182,24 @@
   .top-section .main-article,
   .top-section .sub-article {
     height: 180px;
+  }
+
+  .top-section .main-article h1.article-heading,
+  .top-section .sub-article h1.article-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1vh 1vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 130px;
+  }
+
+  .row-third {
+    padding-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px 5px;
+    width: 80%;
+    margin: 0 auto;
   }
 }
