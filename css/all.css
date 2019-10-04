@@ -136,4 +136,23 @@ table {
 a {
   text-decoration: none;
   color: inherit;
+  font-family:
+    'Montserrat',
+    sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
 }
