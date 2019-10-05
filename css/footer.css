@@ -40,7 +40,7 @@
   display: none;
 }
 
-@media (max-device-width: 768px) {
+@media (max-device-width: 780px) {
   .social-media-links {
     padding-top: 3%;
   }

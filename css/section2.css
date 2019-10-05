@@ -14,7 +14,7 @@
 .sect-heading,
 .deals-heading {
   padding: 2%;
-  padding-top: 5%;
+  padding-top: 8%;
   padding-left: 10%;
   font-size: 24px;
   font-weight: 800;
@@ -85,7 +85,7 @@
   }
 }
 
-@media (max-device-width: 768px) {
+@media (max-device-width: 780px) {
   .row {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
