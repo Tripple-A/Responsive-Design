@@ -174,6 +174,45 @@
   .top-section .main-article h1.article-heading {
     font-size: 2rem;
   }
+
+  .row-third {
+    padding-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .third-article-1 h3 {
+    font-size: 1rem;
+    margin-top: 35%;
+  }
+
+  .third-article-1 h3 small {
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .third-article-2 {
+    display: flex;
+    background-color: #ffe6e6;
+  }
+
+  .third-article-2 h3 {
+    color: red;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 1vh;
+  }
+
+  .third-article-2 h3 .span {
+    text-transform: uppercase;
+  }
+
+  .third-article-2 img {
+    padding: 2px;
+  }
 }
 
 @media (max-device-width: 480px) {
