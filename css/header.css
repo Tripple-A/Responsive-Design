@@ -59,38 +59,32 @@
 @media (max-device-width: 480px) {
   .mobile-nav {
     visibility: visible;
-    height: auto;
+    height: 50px;
     position: fixed;
-    background-color: #fff;
+    background-color: white;
     width: 100%;
     display: flex;
     margin-bottom: 40%;
+    z-index: 2000;
   }
 
   .mobile-nav .mobile-image {
-    background-color: palevioletred;
-    color: white;
-    height: 10vh;
-    width: 18vh;
-    float: left;
-    font-size: 20px;
-    font-family: cursive;
-    word-spacing: 0.3rem;
-    font-weight: 600;
-    text-align: center;
-    padding: 10px;
-    padding-bottom: 0;
+    width: 16%;
+  }
+
+  .mobile-image img {
+    width: 100%;
   }
 
   .mobile-nav .nav-links {
-    padding-left: 56%;
-    padding-top: 1.2rem;
-    padding-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
   }
 
   .mobile-nav .nav-links .nav-link {
-    padding-left: 5px;
-    font-size: 1.2rem;
+    float: right;
   }
 
   .yellow-nav {
