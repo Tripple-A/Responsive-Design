@@ -49,7 +49,7 @@
 }
 
 @media (max-device-width: 780px) {
-  .nav-right {
+  .top-nav .nav-right {
     display: none;
   }
 
