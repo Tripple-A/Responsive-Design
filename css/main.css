@@ -277,7 +277,7 @@
   }
 }
 
-@media (min-device-width: 1024px) {
+@media (min-device-width: 768px) {
   .article-img {
     width: 40%;
     margin-left: 2vw;
